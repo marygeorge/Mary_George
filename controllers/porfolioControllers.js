@@ -33,7 +33,7 @@ router.post("/sendmail", function(req, res) {
             port: 465,
             auth: {
                 user: "contactmarygeorge@gmail.com",
-                pass: "mareah8"!
+                pass: "mareah8!"
             },
             
         });
