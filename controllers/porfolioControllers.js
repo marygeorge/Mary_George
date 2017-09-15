@@ -29,22 +29,22 @@ router.post("/sendmail", function(req, res) {
 
         // create reusable transporter object using the default SMTP transport
         let transporter = nodemailer.createTransport({
-            host: smtp.gmail.com,
-            port: 465,
+            service: "Gmail",
             auth: {
                 user: "contactmarygeorge@gmail.com",
                 pass: "mareah8!"
             },
             
         });
-
+var txt="Email: "+req.body.email+"<br>";
+txt=txt+req.body.message;
         // setup email data with unicode symbols
     let mailOptions = {
         from: req.body.email, // sender address
         to: 'reahgeorge@yahoo.com', // list of receivers
         subject: 'Hello from contact page✔'+req.body.name, // Subject line
         text: req.body.message, // plain text body
-        html: req.body.message // html body
+        html: txt // html body
     };
     console.log(mailOptions);
     // send mail with defined transport object
