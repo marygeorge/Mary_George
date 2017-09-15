@@ -1,0 +1,253 @@
+html {
+		background-color: black;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		font-family: 'Fondamento', cursive;
+		color: #739900;
+		/*336600*/
+}
+body{
+	/*position: relative;*/
+    /*background: url(/images/zigzagwool-contact.png) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+     background-size: 100% 100%;
+  background-repeat: no-repeat-y; 
+    color: grey;
+    font-family: 'Kalam', cursive;
+    font-weight: bold; 
+    font-size: large;
+    text-align: justify;
+    }
+	.page{
+		min-height: 800px;
+   margin-bottom: 60%;
+   }
+   
+	.box{
+		background: url(/images/zigzagwool.png) repeat center center fixed;
+		border-style: ridge;
+		border-width: 3px;
+		border-color: #336600;
+		border-radius: 25px;
+		text-align: center;
+		font-size: 90%;
+		/*padding-top:5%;*/
+
+	}
+	.box:hover{
+		background: #ffffff;
+		border-width:5px;
+		border-radius: 30px;
+		box-shadow: 2px 2px 5px #336600  ;
+		/*border-style: outset;*/
+		}
+
+	.box.aboutMe{
+		position: fixed;
+		float: left;
+		top: 4%;
+		left: 18%;
+		height: 9%;
+		width: 30%;
+		padding-top: 1%;
+	}
+
+	.box.resume{
+		position: fixed;
+		float:left;
+		top: 70%;
+		left: 15%;
+		height: 7%;
+		width: 7%;
+		font-size: 90%;
+		font-weight: bold;
+		text-align: center;
+		padding-top: .9%;
+		}
+	
+	.box.link{
+		position: fixed;
+		float: left;
+		top: 70%;
+		left: 28%;
+		height: 9%;
+		width: 7%;
+		}
+
+	.box.git{
+		position: fixed;
+		float:left;
+		top: 70%;
+		left: 41%;
+		height: 9%;
+		width: 7%;
+	}
+
+	.socialPages{
+		position: absolute;
+		top: 12%;
+		left: 12%;
+		height: 75%;
+		width: 75%;
+		border-radius: 10px;
+		opacity:.5;
+	}
+	.socialPages:horizontal{
+		opacity:1;
+	}
+
+	
+	.box.photo {
+		position: relative;
+		float:left;
+		top: 20%;
+		left:2%;
+		width: 23%;
+		height: 40%;
+		padding-right: 0px;
+		}
+
+	.photoimage{
+		position: absolute;
+		border-radius:50%;
+		overflow:hidden;
+		top: 3.5%;
+		left: 5px;
+		height: 93%;
+		width: 94%;
+	}
+	
+
+	.photoimage:hover{
+		background: #ffffff;
+		border-width:5px;
+		border-radius: 30px;
+		box-shadow: 2px 2px 5px #336600  ;
+	}
+
+	.namebox{
+		position: fixed;
+		float:left;
+		text-align: center;
+		top: 25%;
+		left: 28%;
+		height: 35%;
+		width: 40%;
+		padding-top: 15px;
+	}
+
+	#fullname{
+		font-family: 'Merienda One', regular;
+		color: #ffffff;
+		text-shadow: -1px 0 #336600, 0 1px #336600, 1px 0 #336600, 0 -1px #336600;
+		font-size: 200%;
+	}
+	#desc{
+		font-family: 'Merienda One', cursive;
+		font-size: 150%;
+		text-shadow: .5px .5px #ffffff;
+	}
+
+	.box.project{
+		position: fixed;
+		float:left;
+		top: 23%;
+		left: 70%;
+		height: 26%;
+		width: 26%;
+		text-align: center;
+		padding-top: 7%;
+	}
+
+	.box.jokes{
+		position: fixed;
+		float: left;
+		top: 4%;
+		left: 53%;
+		height: 10%;
+		width: 30%;
+	}
+	.box.hobby {
+		position: fixed;
+		float: left;
+		top: 70%;
+		left: 60%;
+		height: 10%;
+		width: 24%;
+		padding: 0%;
+	}
+
+	
+
+@media screen  and (max-device-width:319px)
+{
+	
+	.photoimage {
+		position: relative;
+		top: 22%;
+		left: 0px;
+		width: 20%;
+		height: 20%;
+		}
+	.namebox{
+		top: 27%;
+		height: 10%;
+		padding: 0px;
+	}
+	.box.backend{
+		position: fixed;
+		top:23%;
+		left: 67%;
+		height: 17%;
+		width :31%;
+
+	}
+	.box.jokes{
+		position: fixed;
+		top: 45%;
+		left:10%;
+	}
+
+	.box.hobby {
+		position: fixed;
+		top: 47%;
+		left: 55%;
+
+	}
+
+}
+
+/*body{
+    background-color: yellowgreen;
+}
+#bur{
+    position: fixed;
+    top:2%;
+    left:35%;
+}
+#eat{
+    position: fixed;
+    top:40%;
+    left:10%;
+}
+#toeat{
+    position: fixed;
+    top:40%;
+    left:20%;
+}
+#eaten{
+    position: fixed;
+    top:45%;
+    left:65%;
+}
+.newBurger{
+    position: fixed;
+    top:70%;
+    left:40%;
+    text-align: center;
+}
+*/

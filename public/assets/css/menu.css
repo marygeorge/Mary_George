@@ -1,0 +1,70 @@
+
+.menu{
+    background: url(/images/zigzagwool-contact.png) repeat top right fixed;
+    position: absolute;
+    height: 10%;
+    width:100%;
+    top:1%;
+    left: 0%;
+    padding-top:2%;
+}
+.menuItem{
+    font-family: 'Fondamento', cursive;
+    font-size: x-large;
+    color: grey;
+    margin: 2%;
+    white-space: nowrap;
+}
+.menuItem:hover{
+     color: #739900;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+a {
+    text-decoration: none;
+     color: #039be5;
+}
+
+#landPage
+{
+    position: absolute;
+    top: 0%;
+    left:85%;
+    font-size: medium;
+}
+
+@media only screen  and (max-device-width : 415px)  
+{ 
+ 
+    .menu{
+        text-align: center;
+    }
+    .menuItem{
+    font-size: 200%;
+    }
+    
+    #landPage
+    {
+        font-size: x-small;
+    }
+
+}
+
+@media only screen  and (max-device-height : 415px)  
+{ 
+ 
+    .menu{
+        text-align: center;
+        padding-top: 5%;
+        height: 5%;
+    }
+    .menuItem{
+        font-size: x-small;
+        width: 100%;
+    }
+    #landPage
+    {
+        font-size: x-small;
+    }
+
+}

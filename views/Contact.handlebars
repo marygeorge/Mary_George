@@ -1,0 +1,33 @@
+<link href="https://fonts.googleapis.com/css?family=Fondamento|Merienda+One|Kalam" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+<link rel="stylesheet" href="/assets/css/Contact.css" type="text/css" />
+
+<div id="contactInfo">
+     
+    <font style="font-size:65px" id="emailtxt">reahgeorge@yahoo.com</font>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button style="background:transparent;border:0px;" id="copyemail" onclick="copyToClipboard()">Copy email</button>
+    <br>
+    <font  id="contactText"> Have a project in mind or just want to hangout, shoot me an e-mail.
+        <br>
+        Or use the form below.
+    </font>
+    </div>
+    
+    
+    <form  method="post">
+            <div  id="contactDiv">
+            <input id="senderName" name="senderName" type="text" class="validate" placeholder="Name">
+            <br>
+            <input id="email" name="email" type="email" class="validate" placeholder="Email">
+            <br>
+            <textarea id="message" name="message" class="materialize-textarea" placeholder="Message" rows="5"></textarea>
+            <br>
+            <button class="row" id="submitForm" type="submit" name="action">Submit</button>
+        </div>
+    </form>
+ </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+<script src="javascript/contact.js"></script>

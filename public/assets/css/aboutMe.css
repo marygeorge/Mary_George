@@ -1,0 +1,150 @@
+body{
+    background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat-y; 
+    color: grey;
+    font-family: 'Kalam', cursive;
+    font-weight: bold; 
+    font-size: large;
+    text-align: justify;
+    }
+#aboutMe{
+     color: #739900;
+}
+
+
+#story{
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    top:20%;
+    left: 5%;
+    width:95%;
+    
+}
+#nametxt{
+    font-size: 400%;
+    color: #739900;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #ffffec, 0 -2px #039be5;
+    /*text-shadow: -1px 0 #ffffec, 0 2px #039be5, 1px 0 #ffffec, 0 -2px #039be5;*/
+}
+#desctxt{
+    font-size: 200%;
+    color: #039be5;
+    text-shadow: 1px 1px #739900;
+    letter-spacing: 1px;
+}
+#skills{
+    position: relative;
+    top: 600px;
+    left:13%;
+    width:80%;
+    height: 550px;
+    font-size: 120%;
+    color: #039be5;
+    text-shadow: 1px 1px #739900;
+    letter-spacing: 1px;
+}
+img{
+    width:10%;
+    height: 15%;
+}
+#html{
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+#css{
+    position: absolute;
+    top:20%;
+    left:25%;
+}
+#js{
+    position: absolute;
+    top:20%;
+    left:45%;
+}
+#jquery{
+    position: absolute;
+    top:20%;
+    left:65%;
+}
+#api {
+    position: absolute;
+    top:20%;
+    left:85%;
+}
+#nodejs
+{
+    position: absolute;
+    top:40%;
+    left:15%;
+}
+#react{
+    position: absolute;
+    top:40%;
+    left:35%;
+}
+#asp{
+    position: absolute;
+    top:40%;
+    left:55%;
+}
+#sql{
+    position: absolute;
+    top:40%;
+    left:75%;
+} 
+#mongo{
+    position: absolute;
+    top:60%;
+    left:25%;
+}
+#git{
+    position: absolute;
+    top:60%;
+    left:45%;
+} 
+#heroku{
+    position: absolute;
+    top:60%;
+    left:65%;
+}
+
+
+@media only screen  and (max-device-width : 415px)  
+{ 
+    #nametxt{
+        font-size: 565%;
+        
+    }
+    #desctxt{
+        font-size: 290%;
+        
+    }
+    #story{
+    font-family: 'Fondamento', cursive;
+    font-size: small;
+    top:17%;
+    left: 5%;
+    }
+    #skills{
+    position: relative;
+    top: 900px;
+    }
+
+}
+
+@media only screen  and (max-device-height : 413px)  
+{ 
+    #story{
+    font-family: 'Fondamento', cursive;
+    font-size: small;
+    top:17%;
+    }
+    
+}

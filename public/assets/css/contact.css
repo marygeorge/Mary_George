@@ -1,0 +1,82 @@
+#contact{
+    color: #739900;
+    
+}
+#contactInfo{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    margin-right: 7%;
+    color: #739900;
+    
+}
+#emailtxt{
+    color: #739900;
+    text-shadow: 1px 0 #ffffec, 0 -2px #039be5;
+}
+#copyemail{
+    color:#808080;
+    /*text-shadow: 1px 1px 1px #739900;*/
+    
+}
+#contactText{
+    color: #039be5;
+    text-shadow: 1px 1px #739900;
+    font-size: 175%;
+    text-align: justify;
+    margin-right: 8%;
+    letter-spacing: 1px;
+}
+#senderName,#email,#message{
+    color: #739900;
+    width: 90%;
+    font-size: 100%;
+    
+}
+#contactDiv{
+    background: url(/images/zigzagwool-contact.png) repeat center center fixed;
+    border:  5px solid #739900;
+    box-shadow:
+    inset 0 0 0 3px black,
+    inset 0 0 0 6px #039be5;
+    position: absolute;
+    top:55%;
+    left: 15%;
+    align-content: center;  
+    text-align: center;
+    width:70%;
+    font-size: 150%;
+    color: #739900;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#message{
+    height: 5%;
+}
+
+#submitForm{
+    background-color: #739900;
+    color: #000;
+}
+
+@media only screen  and (max-device-width : 413px)  
+{ 
+    #contactDiv{
+        background: url(/images/zigzagwool-contact.png) repeat center center fixed;
+        border:  5px solid #739900;
+        /*box-shadow:
+        inset 0 0 0 3px #ffffe6,
+        inset 0 0 0 6px #000;*/
+        position: absolute;
+        top:45%;
+        left: 15%;
+        align-content: center;  
+        text-align: center;
+        width:70%;
+        font-size: 150%;
+        color: #739900;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+}

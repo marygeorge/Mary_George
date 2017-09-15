@@ -1,0 +1,70 @@
+.footer{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  margin-top: -180px;
+  clear: both;
+  /*background-color: #efefef;*/
+  background: url(/images/zigzagwool.png) repeat center center fixed;
+		
+  text-align: center;
+}
+.footerItem{
+    margin-right: 10%;
+}
+.footerItemimg{
+    height: 3%;
+    width: 3%;
+}
+resume{
+		position: relative;
+		float:left;
+		top: 70%;
+		left: 15%;
+		height: 7%;
+		width: 7%;
+		font-size: 90%;
+		font-weight: bold;
+		text-align: center;
+		padding-top: .9%;
+		}
+	
+link{
+		position: absolute;
+		position: fixed;
+		float: left;
+		top: 70%;
+		left: 28%;
+		height: 9%;
+		width: 7%;
+		}
+
+git{
+		/*position: fixed;
+		float:left;
+		top: 70%;
+		left: 41%;*/
+		height: 9%;
+		width: 7%;
+	}
+
+
+/*@media only screen  and (max-device-height : 736px)  */
+@media only screen  and (max-device-width : 414px)
+{ 
+ font{
+     font-size: medium;
+ }
+ .footerItemimg{
+    height: 8%;
+    width: 8%;
+    margin-right: 5%;
+}
+.footerItem{
+    
+    font-size: 250%;
+    margin-right: 5%;
+} 
+}

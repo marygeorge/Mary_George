@@ -1,0 +1,78 @@
+
+#Hobbies{
+     color: #739900;
+}
+
+hr
+{
+    display: block;
+    height:2px;
+    border: 0;
+    border-top: 1px solid #739900;
+    margin: 1em 0;
+    padding: 0; 
+ 
+}
+
+.fullPage{
+    position:absolute;
+    top: 20%;
+    width:100%;
+}
+
+.photosPhotos{
+    /*position: float;*/
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sewPhotos{
+    text-align: center;
+    left: 5px;
+}
+
+.photoImage{
+    width:75%;
+    height: 75%;
+    padding: 2%;
+    border: 6px solid transparent;
+    border-image:radial-gradient(circle at center, #000 10%, #739900 40% , #000 95%);
+    /*border-image: linear-gradient(to left top, #739900 , #000);*/
+    border-image-slice: 1;
+    /*
+    border-style: double;
+    border-width: 10px;
+    border-color: #336600*/
+}
+
+.photoImage .sew{
+    border-style: groove;
+    /*border-width: 10px;
+    border-color: #336600*/
+}
+
+.carousel{
+    height:300px;
+    margin: 0px;
+    margin-top: 1%;
+    padding: 0px;
+}
+.carousel.carousel-item{
+    width: 300px;
+    height: 300px;
+    left:0px;
+}
+
+/*@media only screen  and (max-device-height : 736px)  */
+@media only screen  and (max-device-width : 414px)
+{ 
+    .fullPage{
+        top: 15%;
+    }
+    font{
+        font-size: 200%;
+    }
+    
+    
+}
