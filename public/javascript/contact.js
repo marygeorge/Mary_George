@@ -1,18 +1,30 @@
 
 
 $("#submitForm").on("click",function(){
-// setTimeout(function() {
-  semail={
-      name: $("#senderName").val().trim(),
-      email:$("#email").val().trim(),
-      message:$("#message").val().trim()
-    };
-    console.log(semail);
-    $.post("/sendmail", semail, function() {
-      console.log("mailsend");
-    });
-
-  // }, 320);
+  event.preventDefault();
+  var nm=$("#senderName").val().trim();
+  var em=$("#email").val().trim()
+  var msg=$("#message").val().trim()
+  if( nm!=="" && em!=="" && msg!="")
+  {
+    semail={
+        name: nm,
+        email:em,
+        message:msg
+      };
+      console.log(semail);
+      $.post("/sendmail", semail).then( function(data) {
+        console.log(data);
+        
+      });
+      $("#sendNotify").html("Got it! I'll replay in less that 24 hrs.");
+      $("#sendNotify").show();
+  }
+  else
+  {
+    $("#sendNotify").html("Have a question in mind? Enter your name, email and that question so i can get back to you.")
+    $("#sendNotify").show();
+  }
 });
 
 function copyToClipboard()

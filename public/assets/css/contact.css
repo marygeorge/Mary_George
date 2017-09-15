@@ -33,6 +33,12 @@
     font-size: 100%;
     
 }
+#sendNotify{
+    color: #039be5;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 100%; 
+}
 #contactDiv{
     background: url(/images/zigzagwool-contact.png) repeat center center fixed;
     border:  5px solid #739900;

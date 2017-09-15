@@ -42,7 +42,7 @@ txt=txt+req.body.message;
     let mailOptions = {
         from: req.body.email, // sender address
         to: 'reahgeorge@yahoo.com', // list of receivers
-        subject: 'Info requested - '+req.body.name, // Subject line
+        subject: 'Requested information - '+ req.body.name, // Subject line
         text: req.body.message, // plain text body
         html: txt // html body
     };
@@ -52,12 +52,10 @@ txt=txt+req.body.message;
         if (error) {
             return console.log(error);
         }
+        else{
         console.log('Message sent: %s', info.messageId);
-        // Preview only available when sending through an Ethereal account
-        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
-        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@blurdybloop.com>
-        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+        res.json(true);
+        }
     });
     });
 });
