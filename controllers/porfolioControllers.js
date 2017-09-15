@@ -29,12 +29,13 @@ router.post("/sendmail", function(req, res) {
 
         // create reusable transporter object using the default SMTP transport
         let transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth:
-            {
-                user: "reahgeorge@gmail.com",
-                pass: "Mareah8!"
-            }
+            host: smtp.gmail.com,
+            port: 465,
+            auth: {
+                user: "contactmarygeorge@gmail.com",
+                pass: "mareah8"!
+            },
+            
         });
 
         // setup email data with unicode symbols
