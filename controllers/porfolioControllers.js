@@ -42,7 +42,7 @@ txt=txt+req.body.message;
     let mailOptions = {
         from: req.body.email, // sender address
         to: 'reahgeorge@yahoo.com', // list of receivers
-        subject: 'Hello from contact page✔'+req.body.name, // Subject line
+        subject: 'Info requested - '+req.body.name, // Subject line
         text: req.body.message, // plain text body
         html: txt // html body
     };
