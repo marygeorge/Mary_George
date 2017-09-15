@@ -44,11 +44,11 @@ function sideclick(){
 }
 
 
-$("#resume").on("click",function(){
+// $("#resume").on("click",function(){
 	
-	window.location.href='MaryGeorge.docx';
+// 	window.location.href='MaryGeorge.docx';
 	
-});
+// });
 
 $("#lol").on("click",function(){
 	window.location.href="Contact.html";
