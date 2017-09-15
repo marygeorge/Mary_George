@@ -18,6 +18,11 @@ router.get("/Contact", function(req, res) {
     res.render("Contact");
 });
 
+router.get("/resume", function(req, res){
+    var file = './public/MaryGeorge.docx';
+    res.download(file); // Set disposition and send it.
+});
+
 
 
 
