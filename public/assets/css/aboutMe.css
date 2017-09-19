@@ -1,16 +1,4 @@
-body{
-    background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat-y; 
-    color: grey;
-    font-family: 'Kalam', cursive;
-    font-weight: bold; 
-    font-size: large;
-    text-align: justify;
-    }
+
 #aboutMe{
      color: #739900;
 }
@@ -38,9 +26,29 @@ body{
     text-shadow: 1px 1px #739900;
     letter-spacing: 1px;
 }
+#down{
+    position:absolute;
+    top:65%;
+    left:90%;
+    height:6%;
+    width:6%;
+    opacity: 0;
+    background: transparent;
+    animation: godown 1s steps(200, end); 
+    animation-delay: 2s;
+    /*animation-iteration-count: 2;*/
+    animation-fill-mode:forwards;
+    
+}
+@keyframes godown{
+    from{height:0%;}
+    to{height:6%}
+    from{opacity:0;}
+    to{opacity:.7;}
+}
 #skills{
     position: relative;
-    top: 600px;
+    top: 650px;
     left:13%;
     width:80%;
     height: 550px;
@@ -116,6 +124,7 @@ img{
 }
 
 
+
 @media only screen  and (max-device-width : 415px)  
 { 
     #nametxt{
@@ -126,6 +135,9 @@ img{
         font-size: 290%;
         
     }
+    #down{
+        display: none;
+    }   
     #story{
     font-family: 'Fondamento', cursive;
     font-size: small;
