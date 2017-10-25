@@ -13,6 +13,7 @@ html {
 body{
 	
     color: grey;
+	font-family: 'Fondamento', cursive;
     /*font-family: 'Kalam', cursive;*/
     font-weight: bold; 
     font-size: large;
