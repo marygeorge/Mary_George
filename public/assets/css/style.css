@@ -1,29 +1,25 @@
 html {
-		background-color: black;
-		-webkit-background-size: cover;
+		background-color:#1a1a1a;
+		 /*#1a1a1a;*/
+		/*background: url(/images/white-paper_texture.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
+		background-size: cover;*/
 		font-family: 'Fondamento', cursive;
 		color: #739900;
 		/*336600*/
 }
 body{
-	/*position: relative;*/
-    /*background: url(/images/zigzagwool-contact.png) no-repeat center center fixed;*/
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-     background-size: 100% 100%;
-  background-repeat: no-repeat-y; 
+	
     color: grey;
-    font-family: 'Kalam', cursive;
+    /*font-family: 'Kalam', cursive;*/
     font-weight: bold; 
     font-size: large;
     text-align: justify;
     }
 	.page{
-		min-height: 1000px;
+		/*min-height: 1000px;*/
    margin-bottom: 60%;
    }
    

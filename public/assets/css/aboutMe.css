@@ -1,4 +1,21 @@
+<<<<<<< HEAD
+/*body{
+    background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat-y; 
+    background-color: #d9d9d9;
+    color: grey;
+    font-family: 'Kalam', cursive;
+    font-weight: bold; 
+    font-size: large;
+    text-align: justify;
+    }*/
+=======
 
+>>>>>>> d17339fb55a643cf3399fbae58c069d27400d1f0
 #aboutMe{
      color: #739900;
 }
@@ -33,7 +50,8 @@
     height:6%;
     width:6%;
     opacity: 0;
-    background: transparent;
+    background: #333333;
+    color:black;
     animation: godown 1s steps(200, end); 
     animation-delay: 2s;
     /*animation-iteration-count: 2;*/
