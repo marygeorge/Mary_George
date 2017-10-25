@@ -1,17 +1,17 @@
 #contact{
-    color: #739900;
-    
+    //font-size: 25px;
+    text-shadow: 1px 0 #ffffec;
 }
 #contactInfo{
     position: absolute;
     top: 20%;
     left: 15%;
     margin-right: 7%;
-    color: #739900;
+    /*color: #739900;*/
     
 }
 #emailtxt{
-    color: #739900;
+    color: #ffffec;
     text-shadow: 1px 0 #ffffec, 0 -2px #039be5;
 }
 #copyemail{
@@ -28,7 +28,7 @@
     letter-spacing: 1px;
 }
 #senderName,#email,#message{
-    color: #739900;
+    color: #ffffec;
     width: 90%;
     font-size: 100%;
     
@@ -40,11 +40,11 @@
     font-size: 100%; 
 }
 #contactDiv{
-    background: url(/images/zigzagwool-contact.png) repeat center center fixed;
-    border:  5px solid #739900;
-    box-shadow:
+    background-color: rgba(50,50,50, 0.4);
+    border:  5px solid #039be5;
+    /*box-shadow:
     inset 0 0 0 3px black,
-    inset 0 0 0 6px #039be5;
+    inset 0 0 0 6px #039be5;*/
     position: absolute;
     top:65%;
     left: 15%;
@@ -52,7 +52,7 @@
     text-align: center;
     width:70%;
     font-size: 150%;
-    color: #739900;
+    color: #039be5;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -61,7 +61,8 @@
 }
 
 #submitForm{
-    background-color: #739900;
+    background-color: #039be5;
+    border-color: #026597;
     color: #000;
 }
 
@@ -69,7 +70,7 @@
 { 
     #contactDiv{
         background: url(/images/zigzagwool-contact.png) repeat center center fixed;
-        border:  5px solid #739900;
+        border:  5px solid #039be5;
         /*box-shadow:
         inset 0 0 0 3px #ffffe6,
         inset 0 0 0 6px #000;*/
@@ -80,7 +81,7 @@
         text-align: center;
         width:70%;
         font-size: 150%;
-        color: #739900;
+        color: #039be5;
         padding-top: 5%;
         padding-bottom: 5%;
     }

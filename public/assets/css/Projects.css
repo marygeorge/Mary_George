@@ -1,11 +1,12 @@
 hr
 {
-    border-top: 2px solid #739900;
-    color: #739900;
+    border-top: 2px solid grey;
+    color: grey;
 }
 
 #Projects{
-    color: #739900;
+    //font-size: 25px;
+     text-shadow: 1px 0 #ffffec;
 }
 
 .allProjects{

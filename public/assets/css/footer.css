@@ -1,14 +1,5 @@
 .footer{
-    /*position: fixed;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-	margin-top: -180px;
-	clear: both;
-	background: url(/images/zigzagwool.png) repeat center center fixed;
-	background-color: transparent;
-	text-align: center;*/
+    margin-top: 0px;
 	float:right;
 	text-align: right;
 	
@@ -59,6 +50,9 @@ git{
  font{
      font-size: medium;
  }
+ .footer{
+   margin-top: 50px;
+}
  .footerItemimg{
     height: 8%;
     width: 8%;

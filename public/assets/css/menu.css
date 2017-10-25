@@ -12,13 +12,13 @@
 .menuItem{
     opacity: 1;
     font-family: 'Fondamento', cursive;
+    letter-spacing: .8px;
     font-size: x-large;
     color: grey;
     margin: 2%;
     white-space: nowrap;
 }
 .menuItem:hover{
-     color: #739900;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 

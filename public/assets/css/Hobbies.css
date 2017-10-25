@@ -1,6 +1,7 @@
 
 #Hobbies{
-     color: #739900;
+     //font-size: 28px;
+     text-shadow: 1px 0 #ffffec;
 }
 
 hr
@@ -8,7 +9,7 @@ hr
     display: block;
     height:2px;
     border: 0;
-    border-top: 1px solid #739900;
+    border-top: 1px solid grey;
     margin: 1em 0;
     padding: 0; 
  
@@ -37,7 +38,7 @@ hr
     height: 100%;
     padding: 2%;
     border: 6px solid transparent;
-    border-image:radial-gradient(circle at center, #000 10%, #739900 40% , #000 95%);
+    border-image:radial-gradient(circle at center, #000 10%, grey 40% , #000 95%);
     /*border-image: linear-gradient(to left top, #739900 , #000);*/
     border-image-slice: 1;
     /*

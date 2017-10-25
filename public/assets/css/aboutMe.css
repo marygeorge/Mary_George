@@ -13,7 +13,8 @@
     text-align: justify;
     }*/
 #aboutMe{
-     color: #739900;
+     /*font-size: 25px;*/
+     text-shadow: 1px 0 #ffffec;
 }
 
 
@@ -28,9 +29,9 @@
 }
 #nametxt{
     font-size: 400%;
-    color: #739900;
+    color: #ffffec;
     letter-spacing: 2px;
-    text-shadow: 1px 0 #ffffec, 0 -2px #039be5;
+    text-shadow: 1px 0 #739900, 0 -2px #039be5;
     /*text-shadow: -1px 0 #ffffec, 0 2px #039be5, 1px 0 #ffffec, 0 -2px #039be5;*/
 }
 #desctxt{
