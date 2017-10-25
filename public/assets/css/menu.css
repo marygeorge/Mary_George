@@ -1,6 +1,7 @@
 
 .menu{
     background: url(/images/zigzagwool-contact.png) repeat top right fixed;
+    /*background-color: transparent;*/
     position: absolute;
     height: 10%;
     width:100%;

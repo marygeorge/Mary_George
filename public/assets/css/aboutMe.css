@@ -46,7 +46,8 @@
     height:6%;
     width:6%;
     opacity: 0;
-    background: transparent;
+    background: #333333;
+    color:black;
     animation: godown 1s steps(200, end); 
     animation-delay: 2s;
     /*animation-iteration-count: 2;*/

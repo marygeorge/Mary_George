@@ -8,7 +8,8 @@
   clear: both;
   /*background-color: #efefef;*/
   background: url(/images/zigzagwool.png) repeat center center fixed;
-		
+  background-color: transparent;
+    
   text-align: center;
 }
 .footerItem{
