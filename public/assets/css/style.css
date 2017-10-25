@@ -1,14 +1,12 @@
 html {
-		background-color:#1a1a1a;
-		 /*#1a1a1a;*/
-		/*background: url(/images/white-paper_texture.png) no-repeat center center fixed;
+	background-color:#1a1a1a;
+	background: url(/images/zigzagwool.png) no-repeat center center fixed;
     -webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
-		font-family: 'Fondamento', cursive;
-		color: #739900;
-		/*336600*/
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Fondamento', cursive;
+	color: #739900;
 }
 body{
 	

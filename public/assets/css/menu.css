@@ -1,7 +1,7 @@
 
 .menu{
-    background: url(/images/zigzagwool-contact.png) repeat top right fixed;
-    /*background-color: transparent;*/
+    background-color: rgba(50,50,50, 0.4);
+   
     position: absolute;
     height: 10%;
     width:100%;
@@ -10,6 +10,7 @@
     padding-top:2%;
 }
 .menuItem{
+    opacity: 1;
     font-family: 'Fondamento', cursive;
     font-size: x-large;
     color: grey;
