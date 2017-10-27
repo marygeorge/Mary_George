@@ -75,7 +75,7 @@
 }
 #skillImage{
     
-    filter: grayscale(5 0%);
+    filter: grayscale(50%);
 }
 img{
     width:10%;
