@@ -1,7 +1,12 @@
 
 #Hobbies{
-     //font-size: 28px;
+     /*//font-size: 28px;*/
      text-shadow: 1px 0 #ffffec;
+}
+/*overriding materialize styling*/
+*, *:before, *:after {
+     -webkit-box-sizing: initial;
+     box-sizing: initial;
 }
 
 hr
@@ -16,9 +21,12 @@ hr
 }
 
 .fullPage{
-    position:absolute;
-    top: 20%;
-    width:100%;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    top:20%;
+    left: 5%;
+    width:95%;
 }
 
 .photosPhotos{

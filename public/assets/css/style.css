@@ -1,13 +1,7 @@
-/*html {
-	background-color:#1a1a1a;
-	background: url(/images/zigzagwool.png) repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Fondamento', cursive;
+html {
+line-height: 1.5;	
 	
-}*/
+}
 body{
 	background-color:#1a1a1a;
     color: grey;
